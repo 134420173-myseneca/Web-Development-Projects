@@ -1,0 +1,43 @@
+body{
+ 
+    height: 100px;
+   
+}
+video{
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin-top:-50%;
+    margin-left:-50%;
+     z-index: 1;
+    
+}
+a{
+
+    display: inline;
+    padding:12px 48px ;
+    border: solid 4px rgb(256,68,100);
+    text-decoration: none;
+    font-size:24px;
+    color:rgb(256,68,100)
+}
+div{
+    position: relative;
+    background-repeat: repeat;
+    z-index: 2;
+    max-width: 720px;
+    margin-top: 180px;
+    text-align: center;
+}
+h1{
+    margin-top: 25px;
+    margin-left: 205px;
+    color:rgb(rgb(134, 114, 114), green, blue);
+    font-size:44px;
+    background-color: #98a225e3;
+}
+p{
+    color:white;
+    background-color: grey;
+    opacity: 0.7;
+}
